@@ -1,4 +1,4 @@
-import { async } from "@firebase/util";
+
 import { collection, deleteDoc, doc, setDoc } from "firebase/firestore/lite";
 import { db } from "../../firebase/firebase";
 import { filesUpload } from "../../helpers/filesUpload";
